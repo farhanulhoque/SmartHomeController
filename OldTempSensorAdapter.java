@@ -1,22 +1,10 @@
-//package itec3030.assignments.a2;
-
-
 import itec3030.smarthome.standards.ControllerInterface;   
-//import itec3030.smarthome.standards.NumericMeasurementInstrument;
 import itec3030.smarthome.standards.TemperatureSensor;
 import oldtempinc.drivers.OldTempSensor;
-//import oldtempinc.hardware.OldSensorDevice;
 
 
 public class OldTempSensorAdapter extends OldTempSensor implements TemperatureSensor {
 	
-	/**
-	 * @param
-	 * @return
-	 * 
-	 * instantiates OldTempSensor class as an adapter architecture for the main class.  
-	 *
-	 */
 	OldTempSensor x = new OldTempSensor();
 	
 
