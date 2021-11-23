@@ -1,5 +1,3 @@
-//package itec3030.assignments.a2;
-
 import newtemp.NewTempSensor.NewTempSensorDriver;
 import newtemp.NewTempSensor.Observer;
 
