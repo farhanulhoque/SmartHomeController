@@ -34,11 +34,6 @@ public class Main {
         o2.newTemperature(35);
         
         
-        
-        // ***
-        // Exercise 3
-        // ***
-        
         OurFurnace n = new PlainGasF1();
         n = new Humidifier(n);
         n = new WiFi(n);
